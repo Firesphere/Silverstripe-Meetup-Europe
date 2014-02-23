@@ -1,0 +1,59 @@
+#shout{padding:15px 0 0 0;}
+#shout figure{}
+#shout figure div{display:block; float:left; }
+#shout figure div img{}
+#shout figure figcaption{display:block; float:right; width:52.08333%; font-size:1.2em; line-height:1.5em;}
+#shout figure figcaption h1{display:inline-block; margin:5% 0 0 0; padding:0; color:#000000; background-color:#FFFFFF; font-size:3.0em; text-transform:uppercase;}
+#shout figure figcaption p{margin:0 0 15px 0; padding:0;}
+#shout .noImage{display:block; float:right; width:100%; padding:0; font-size:1.2em; line-height:1.5em;}
+#shout .noImage h1{display:inline-block; padding:0; color:#000000; background-color:#FFFFFF; font-size:3.0em; text-transform:uppercase;}
+#shout .noImage p{margin:0 0 15px 0; padding:0;}
+body.NewsHolderPage #shout .tagCloud{width:100%; text-align: center; line-height: none; font-size: 1em;}
+body.NewsHolderPage #shout .cloud{position: relative;}
+body.NewsHolderPage #shout .one_third{padding:20px 0; line-height:1.6em;}
+body.NewsHolderPage #shout figure div{width:22.8333%;}
+body.NewsHolderPage #shout figure div.YouTube{width:100%;}
+body.NewsHolderPage #shout figure div.YouTube p{font-size:75%;}
+
+body.NewsHolderPage #shout figure figcaption, body.NewsHolderPage #shout figure figcaption div.Content{width:76.08333%; padding-left: 1%}
+body.NewsHolderPage #shout figure form div{display:block; width:100%;}
+body.NewsHolderPage #shout figure div.middleColumn{display:block; width:100%;}
+body.NewsHolderPage #shout figure pre ol li {clear: both;}
+body.NewsHolderPage #shout figure pre ol li div{width: 100%; float: right;}
+body.NewsHolderPage #shout figure figcaption pre ol li div{width: 100%; float: right;}
+body.NewsHolderPage hr{clear: both;}
+#shout figure div.small, body.NewsHolderPage #shout figure div.small{width: 100%;}
+#container #homepage{display:block; width:100%; padding:20px 0; line-height:1.6em;}
+
+#container #homepage #latest_work{padding-bottom:30px; border-bottom:1px solid #ECECEC;}
+#container #homepage #latest_work article{}
+#container #homepage #latest_work article img{margin-bottom:20px;}
+#container #homepage #latest_work article h2, #container #homepage #latest_work article p, #shout.cloud article p{margin:15px 0; padding:0;}
+#container #homepage #latest_work article h2{margin-left: 65px;}
+#container #homepage #latest_work article h3 {clear: both;}
+#container #homepage #latest_work article a img{float: left;}
+#container #homepage #latest_work article footer{}
+
+#container #homepage #intro{margin-bottom:0;}
+#container #homepage #intro article{}
+#container #homepage #intro article h2{font-size:2em; margin-bottom:40px;}
+#container #homepage #intro article ul{margin:0; padding:0; list-style:none;}
+#container #homepage #intro article ul li{margin-bottom:40px;}
+#container #homepage #intro article ul li.last{margin-bottom:0;}
+#container #homepage #intro article ul li figure{display:block; width:100%;}
+#container #homepage #intro article ul li figure div{margin-bottom:0;}
+#container #homepage #intro article ul li figure div img{}
+#container #homepage #intro article ul li figure figcaption{}
+#container #homepage #intro article ul li figure figcaption p{margin:0 0 15px 0; padding:0;}
+#container #homepage #intro article ul li figure figcaption p.name{}
+#container #homepage #intro article ul li figure figcaption footer{}
+
+#container #homepage #intro article ul.testimonials li{background:url("../images/quotemarks.gif") 0 0 no-repeat;}
+#container #homepage #intro article ul.testimonials li p.name{margin:0 0 30px 60px; padding:15px 0 0 0;}
+#container #homepage #intro article ul li blockquote{display:block; margin:0; padding:0; color:inherit; background-color:inherit; font-style:normal; line-height:inherit;}
+#container #homepage #intro article ul li blockquote:before, #container #homepage #intro article ul li blockquote:after{content:inherit;}
+
+
+footer.more{display:inline-block; color:#FFFFFF; background-color: transparent;}
+footer.more a{color:#FFFFFF; background-color:#8EA376; padding:8px 10px; display: block}
+footer.more.cloud a{color:#FFFFFF; background-color:#8EA376; padding:8px 10px; display: block}

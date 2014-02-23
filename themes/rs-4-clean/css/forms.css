@@ -1,0 +1,21 @@
+/*
+Responsive Template Name: RS-4 Clean
+File: Forms CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+form fieldset, legend{margin:0; padding:0; border:none;}
+/*legend{display:none;}*/
+input, textarea, select{font-size:1em; font-family:Georgia,"Times New Roman",Times,serif;}
+
+/* ----------------------------------------------Forms in Content Area-------------------------------------*/
+
+form#CommentForm_CommentForm{display:block; width:51%;}
+form#CommentForm_CommentForm input{width:96%; padding:2px; border:1px solid #D6D6D6; margin:5px 5px 0 0;}
+form#CommentForm_CommentForm .field.text{float: left; width: 50%;}
+form#CommentForm_CommentForm textarea{width:98%; border:1px solid #D6D6D6; padding:2px; overflow:auto;}
+form#CommentForm_CommentForm p{margin:5px 0;}
+form#CommentForm_CommentForm .Actions, #comments form #reset{margin:0; padding:5px; color:#666666; background-color:#F7F7F7; cursor:pointer; width: 26%}
+form#CommentForm_CommentForm .message.required{color: #264026;}

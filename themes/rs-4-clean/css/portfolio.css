@@ -1,0 +1,17 @@
+/*
+Responsive Template Name: RS-4 Clean
+File: Portfolio CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#portfolio{display:block; width:100%;}
+#portfolio ul, #portfolio p{margin:0; padding:0; list-style:none;}
+#portfolio li{display:block; float:left; width:23.4375%; margin:0 2.08333% 2.08333% 0; padding:0;}
+#portfolio li.last{margin-right:0;}
+#portfolio article, #portfolio article figure{display:block; width:100%;}
+#portfolio article figure img{}
+#portfolio article figure figcaption{margin:0 10px; padding:10px; text-align:center; color:#666666; background-color:#E8E8E8;}
+.StaffPage #shout #portfolio{text-align: center;}
+.StaffPage #shout figure figcaption{margin: 0 auto; float: none;}
