@@ -21,4 +21,19 @@ class BecomeSponsorPage_Controller extends Page_Controller {
 		'SponsorForm',
 		'thankyou',
 	);
+	
+	public function SponsorForm() {
+		$spobj = singleton('SponsorRequest');
+		$fields = $spobj->getFrontendFields();
+		$action = FieldList::create(
+			FormAction::create('submitSponsorForm', _t('BecomeSponsorPage.SUBMIT', 'Submit'))
+		);
+		$required = RequiredFields::create(
+			$fields
+			);
+		$form = Form::create($this, 'SponsorForm', $fields, $action, $required);
+		
+		return $form;
+	}
+	
 }

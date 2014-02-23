@@ -15,7 +15,7 @@
 		<link rel="shortcut icon" href="themes/cloudy/icons/favicon.ico" />
 
 		<%-- We have loaded the color scheme "Green" - change "cloudy-green" to "cloudy-base" to load the base scheme --%>
-		<% require themedCSS(cloudy-green) %>
+		<% require themedCSS(cloudy-base) %>
 		<link rel="stylesheet" media="print" href="themes/cloudy/css/print.css" />
 
 		<%-- We are using the CDN hosted latest version of jQuery --%>

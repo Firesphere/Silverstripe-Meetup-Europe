@@ -35,7 +35,13 @@ class SponsorRequest extends DataObject
 	
 	public function getFrontEndFields($params = null) {
 		$fields = parent::getFrontEndFields($params);
-		$fields->removeByName(array('URLSegment','Priority','SponsorPage'));
+		$fields->removeByName(array('URLSegment','Priority','SponsorPageID', 'Content', 'Logo'));
+		$fields->push($content = TextareaField::create('Content',_t('SponsorRequest.CONTENT','Description')));
+		$fields->push($image = UploadField::create('Logo', _t('SponsorRequest.LOGO','Logo')));
+		$image->setConfig('canAttachExisting', false);
+		$image->setConfig('allowedMaxFileNumber', 1);
+		$image->setConfig('canPreviewFolder', false);
+		$image->setConfig('canPreviewFolder', false);
 		return $fields;	
 	}
 

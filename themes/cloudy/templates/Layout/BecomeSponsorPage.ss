@@ -8,6 +8,6 @@
   </div>
   <div class="span9 typography">
   	$Content
-  	$Form
+  	$SponsorForm
   </div>
 </div>
