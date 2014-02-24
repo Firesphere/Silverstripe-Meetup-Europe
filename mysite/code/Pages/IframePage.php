@@ -16,7 +16,19 @@ class IframePage extends Page {
 		'IframeWidth' => 'Int',
 		'IframeHeight' => 'Int'
 	);
+	
+	private static $defaults = array(
+		'IframeWidth' => '850',
+		'IframeHeight' => '1000',
+	);
 
+	public function getCMSFields() {
+		$fields = parent::getCMSFields();
+		$fields->push(TextField::create('IframeURL'));
+		$fields->push(NumericField::create('IframeWidth'));
+		$fields->push(NumericField::create('IframeHeight'));
+		return $fields;
+	}
 }
 
 class IframePage_Controller extends Page_Controller {
