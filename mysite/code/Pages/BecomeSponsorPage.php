@@ -1,17 +1,20 @@
 <?php
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 /**
- * Description of BecomeSponsorPage
+ * Let possible sponsors apply here.
+ * 
+ * @todo Spamprotection
  *
  * @author Simon 'Sphere' Erkelens
  */
 class BecomeSponsorPage extends Page
 {
-	//put your code here
+	private static $db = array(
+		'ThankyouText' => 'HTMLText',
+	);
+	
+	public function getCMSFields() {
+		return parent::getCMSFields();
+	}
 
 }
 
@@ -19,7 +22,7 @@ class BecomeSponsorPage_Controller extends Page_Controller {
 	
 	private static $allowed_actions = array(
 		'SponsorForm',
-		'thankyou',
+		'thanks',
 	);
 	
 	public function SponsorForm() {
@@ -36,4 +39,16 @@ class BecomeSponsorPage_Controller extends Page_Controller {
 		return $form;
 	}
 	
+	/**
+	 * Store the submitted form.
+	 * @param Array $data
+	 * @param Form $form
+	 */
+	public function submitSponsorForm($data, $form) {
+		/** @var DataObject $submission */
+		$submission = SponsorRequest::create();
+		$form->saveInto($submission);
+		$submission->write();
+		return $this->redirect($this->Link('thanks'));
+	}
 }

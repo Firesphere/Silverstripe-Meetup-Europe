@@ -276,12 +276,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "97ff8b252c1e8709c42238d80ef25431f4c45d03"
+                "reference": "45e4b1c037b9ab1eaab03de4154a16f31856ea9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/97ff8b252c1e8709c42238d80ef25431f4c45d03",
-                "reference": "97ff8b252c1e8709c42238d80ef25431f4c45d03",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/45e4b1c037b9ab1eaab03de4154a16f31856ea9d",
+                "reference": "45e4b1c037b9ab1eaab03de4154a16f31856ea9d",
                 "shasum": ""
             },
             "require": {
@@ -305,7 +305,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2014-02-17 10:02:19"
+            "time": "2014-02-27 05:21:31"
         },
         {
             "name": "unclecheese/display-logic",
@@ -313,12 +313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-display-logic.git",
-                "reference": "36b69ad667b3930b4ac6f8cd60dba9ef468d84e8"
+                "reference": "84340397f5cb5670608ae34b350f24f7d47ef1da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-display-logic/zipball/36b69ad667b3930b4ac6f8cd60dba9ef468d84e8",
-                "reference": "36b69ad667b3930b4ac6f8cd60dba9ef468d84e8",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-display-logic/zipball/84340397f5cb5670608ae34b350f24f7d47ef1da",
+                "reference": "84340397f5cb5670608ae34b350f24f7d47ef1da",
                 "shasum": ""
             },
             "require": {
@@ -351,7 +351,7 @@
                 "logic",
                 "silverstripe"
             ],
-            "time": "2014-02-23 00:34:13"
+            "time": "2014-02-28 00:52:48"
         },
         {
             "name": "undefinedoffset/sortablegridfield",
