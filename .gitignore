@@ -9,3 +9,4 @@ silverstripe-cache
 .DS_Store
 vendor/
 ss_environment.php
+_ss_environment_live.php
