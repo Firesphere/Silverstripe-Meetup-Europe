@@ -7,7 +7,6 @@
   	<% include Sidebar %>
   </div>
   <div class="span9 typography">
-  	$Content
-  	$Form
+  	$ThankyouText
   </div>
 </div>

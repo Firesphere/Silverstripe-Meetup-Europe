@@ -7,9 +7,7 @@
 
 
 <div class="content typography right">
-	<div><span class="icon">R</span> <a target="_blank" href="http://www.anselm.dk">www.anselm.dk</a></div> |
-	<div><span class="icon">@</span> <a target="_blank" href="mailto:ac@anselm.dk">ac@anselm.dk</a></div> |
-	<div><span class="icon">t</span> <a target="_blank" href="http://twitter.com/anselmdk">anselmdk</a></div> | 
-	<div><span class="icon">f</span> <a target="_blank" href="http://facebook.com/anselmdk">anselmdk</a></div> |
-	<div><span class="icon">m</span> <a target="_blank" href="http://vimeo.com/anselmdk">anselmdk</a></div>
+	<div><span class="icon">@</span> <a target="_blank" href="mailto:info@silverstripe-europe.com">info@silverstripe-europe.com</a></div> |
+	<div><span class="icon">t</span> <a target="_blank" href="http://twitter.com/SilverStripeEU">SilverStripeEU</a></div> | 
+	<div><span class="icon">f</span> <a target="_blank" href="http://facebook.com/silverstripe-eumeetup">SilverStripe EU Meetup</a></div>
 </div>

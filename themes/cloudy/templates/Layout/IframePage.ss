@@ -8,6 +8,6 @@
   </div>
   <div class="span9 typography">
   	$Content
-  	$Form
+  	<iframe src="$IframeURL" width="$IframeWidth" height="$IframeHeight" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
   </div>
 </div>

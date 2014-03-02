@@ -12,21 +12,32 @@
 class Sponsor extends DataObject
 {
 	private static $db = array(
-		'Title' => 'Varchar(255)',
-		'URL' => 'Varchar(255)',
-		'Content' => 'HTMLText',
-		'URLSegment' => 'Varchar(255)',
-		'Priority' => 'Int', // Highest is 1, lowest is 10 I guess
+		'Title'		=> 'Varchar(255)',
+		'Website'	=> 'Varchar(255)',
+		'ContactEmail'	=> 'Varchar(255)',
+		'Content'	=> 'HTMLText',
+		'URLSegment'	=> 'Varchar(255)',
+		'Priority'	=> 'Int', // Highest is 1, lowest is 10 I guess
 	);
 	
 	private static $has_one = array(
-		'Logo' => 'Image',
-		'SponsorPage' => 'SponsorPage',
+		'Logo'		=> 'Image',
+		'SponsorPage'	=> 'SponsorPage',
 	);
-
+	
 	private static $indexes = array(
 		'URLSegment' => true
 	);
+
+	public function fieldLabels($includerelations = true) {
+		$labels = parent::fieldLabels($includerelations);
+		$labels['Title']	= _t('SponsorRequest.Title', 'Company name');
+		$labels['Website']	= _t('SponsorRequest.Website', 'Company website');
+		$labels['ContactEmail']	= _t('SponsorRequest.ContactEmail', 'Company e-mail address');
+		$labels['Content']	= _t('SponsorRequest.Content', 'Company description');
+		$labels['Logo']		= _t('SponsorRequest.Logo', 'Company logo');
+		return $labels;
+	}
 
 	public function onBeforeWrite() {
 		parent::onBeforeWrite();
