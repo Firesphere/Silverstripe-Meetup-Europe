@@ -8,7 +8,8 @@
 		"silverstripe-themes/simple": "*",
 		"unclecheese/display-logic": "dev-master",
 		"undefinedoffset/sortablegridfield": "dev-experimental",
-		"silverstripe/userforms": "dev-master"
+		"silverstripe/userforms": "dev-master",
+		"silverstripe/googlesitemaps": "dev-master"
 	},
 	"config": {
 		"process-timeout": 600	

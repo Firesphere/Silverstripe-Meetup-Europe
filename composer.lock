@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "9e62c934aeb53d9b33dd9d6668006927",
+    "hash": "f9297705c14c5887c5b94533c749c11f",
     "packages": [
         {
             "name": "composer/installers",
@@ -230,6 +230,44 @@
             "time": "2014-02-21 20:15:15"
         },
         {
+            "name": "silverstripe/googlesitemaps",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe-labs/silverstripe-googlesitemaps.git",
+                "reference": "3b3742a1bc2cc14a1950304bc7dd533f9c66edbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-googlesitemaps/zipball/3b3742a1bc2cc14a1950304bc7dd533f9c66edbf",
+                "reference": "3b3742a1bc2cc14a1950304bc7dd533f9c66edbf",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Will Rossiter",
+                    "email": "will@fullscreen.io",
+                    "homepage": "http://wilr.github.com"
+                }
+            ],
+            "description": "SilverStripe support for the Google Sitemaps XML system, enabling Google and other search engines to see all urls on your site. This helps your SilverStripe website rank well in search engines, and to encourage the information on your site to be discovered by Google quickly.",
+            "homepage": "https://github.com/silverstripe-labs/silverstripe-googlesitemaps",
+            "keywords": [
+                "googlesitemaps",
+                "seo",
+                "silverstripe"
+            ],
+            "time": "2014-01-28 04:41:57"
+        },
+        {
             "name": "silverstripe/reports",
             "version": "dev-master",
             "source": {
@@ -404,7 +442,8 @@
     "stability-flags": {
         "unclecheese/display-logic": 20,
         "undefinedoffset/sortablegridfield": 20,
-        "silverstripe/userforms": 20
+        "silverstripe/userforms": 20,
+        "silverstripe/googlesitemaps": 20
     },
     "platform": {
         "php": ">=5.3.2"
