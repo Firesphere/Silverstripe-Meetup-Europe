@@ -19,3 +19,4 @@ require_once('conf/ConfigureFromEnv.php');
 date_default_timezone_set('Europe/Amsterdam');
 // Set the site locale
 i18n::set_locale('en_US');
+BasicAuth::protect_entire_site(true);
