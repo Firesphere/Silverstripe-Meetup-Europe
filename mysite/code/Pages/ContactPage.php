@@ -19,12 +19,12 @@ class ContactPage extends Page {
 class ContactPage_Controller extends Page_Controller {
 	
 	private static $allowed_actions = array(
-		'ContactForm',
+		'Form',
 		'HandleForm',
 		'Bedankt',
 	);
 	
-	public function ContactForm(){
+	public function Form(){
 		$FieldList = FieldList::create(
 			array(
 				$name = TextField::create('Name', 'Name'),
@@ -46,7 +46,7 @@ class ContactPage_Controller extends Page_Controller {
 				'Content',
 			)
 		);
-		$Form = Form::create($this, 'ContactForm', $FieldList, $Action, $Required);
+		$Form = Form::create($this, 'Form', $FieldList, $Action, $Required);
 		
 		return $Form;
 	}

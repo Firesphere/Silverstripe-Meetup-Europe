@@ -41,4 +41,8 @@ class SponsorPage_Controller extends Page_Controller {
 	private static $allowed_actions = array(
 		'details',
 	);
+	
+	public function mySponsors() {
+		return $this->Sponsors();
+	}
 }
